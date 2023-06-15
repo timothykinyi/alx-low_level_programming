@@ -1,8 +1,7 @@
 # include <stdio.h>
 
 /**
- *main entry point
- *prints a sentence using printf
+ *main : a program that prints a sentence using printf
  *Return: Always 0 (Success)
 */
 int main(void)
