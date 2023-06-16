@@ -2,7 +2,8 @@
 
 int main(void)
 {
-for (char character = 'a' ; character <= 'z' ; character++)
+char character;
+for (character = 'a' ; character <= 'z' ; character++)
 {
 putchar(character);
 }
