@@ -1,15 +1,20 @@
 # include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-for (char character = "a" ; character <= "z" ; character++)
+char character;
+for (character = 'a' ; character <= 'z' ; character++)
 {
 putchar(character);
 }
-for (char character = "A" ; character <= "Z" ; character++)
+for (character = 'A' ; character <= 'Z' ; character++)
 {
 putchar(character);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
