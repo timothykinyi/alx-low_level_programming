@@ -17,8 +17,8 @@ else if (n == 0)
 printf("is zero");
 }
 else
-}
-printf("is positive";
+{
+printf("is positive");
 }
 return (0);
 }
