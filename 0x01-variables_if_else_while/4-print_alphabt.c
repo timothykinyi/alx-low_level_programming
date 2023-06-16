@@ -2,14 +2,14 @@
 /**
  * main - Entry point
  *
- *Return: Always 0 (Success)                                                                                                         
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
 char character;
 for (character = 'a' ; character <= 'z' ; character++)
 {
-if((character != 'q') || (character != 'e'))
+if((character != "q") || (character != "e"))
 {
 putchar(character);
 }
