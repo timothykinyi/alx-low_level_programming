@@ -6,30 +6,22 @@
  */
 int main(void)
 {
-int number1, number2;
-for (number1 = 0; number1 <= 99; number1++)
+int i, j;
+for (i = 0; i <= 99; i++)
 {
-for (number2 = (number1 == 0) ? 1 : number1; number2 <= 99; number2++)
+for (j = i; j <= 99; j++)
 {
-int tens1 = number1 / 10;
-int ones1 = number1 % 10;
-int tens2 = number2 / 10;
-int ones2 = number2 % 10;
-if ((ones1) != (tens2 && ones2))
+if (i != j)
 {
-putchar('0' + tens1);
-putchar('0' + ones1);
+putchar(i / 10 + '0');
+putchar(i % 10 + '0');
 putchar(' ');
-putchar('0' + tens2);
-putchar('0' + ones2);
-if (number1 != 99 || number2 != 99)
-{
+putchar(j / 10 + '0');
+putchar(j % 10 + '0');
 putchar(',');
 putchar(' ');
 }
 }
 }
-}
-putchar('\n');
 return (0);
 }
