@@ -15,7 +15,7 @@ int tens1 = number1 / 10;
 int ones1 = number1 % 10;
 int tens2 = number2 / 10;
 int ones2 = number2 % 10;
-if ((tens1 || ones1) != (tens2 || ones2))
+if ((tens1 && ones1) != (tens2 || ones2))
 {
 putchar('0' + tens1);
 putchar('0' + ones1);
