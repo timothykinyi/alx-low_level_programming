@@ -28,5 +28,6 @@ count++;
 }
 }
 }
+putchar('\n');
 return (0);
 }
