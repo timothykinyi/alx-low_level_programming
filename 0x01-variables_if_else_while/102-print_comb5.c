@@ -22,11 +22,11 @@ putchar('0' + ones1);
 putchar(' ');
 putchar('0' + tens2);
 putchar('0' + ones2);
-}
 if (number1 != 99 || number2 != 99)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
