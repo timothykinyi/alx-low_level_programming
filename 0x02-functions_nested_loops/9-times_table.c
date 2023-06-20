@@ -12,8 +12,8 @@ z = (x*y);
 printf("%d", z);
 if (y != 9)
 {
-_putchar(',');
-_putchar(' ');
+printf(",");
+printf(" ");
 }
 }
 _putchar('\n');
