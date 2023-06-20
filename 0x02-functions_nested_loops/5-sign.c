@@ -22,6 +22,5 @@ else if (n<0)
 _putchar(48);
 return (-1);
 }
-_putchar("\n");
- return (0);
+return (0);
 }
