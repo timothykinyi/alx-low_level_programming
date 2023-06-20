@@ -11,6 +11,10 @@ for(y=0;y<6;y++)
 {
 for(z=0;z<10;z++)
 {
+if (w >= 2 && b >= 4)
+{
+break;
+}
 printf("%d", w);
 printf("%d", x);
 printf(":");
