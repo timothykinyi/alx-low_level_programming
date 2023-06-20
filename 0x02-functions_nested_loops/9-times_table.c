@@ -8,8 +8,8 @@ for (x=0;x < 10;x++)
 {
 for(y=0;y < 10;y++)
 {
-z=x*y;
-_putchar(x);
+z = (x*y);
+_putchar(z);
 if (y != 9)
 {
 _putchar(',');
