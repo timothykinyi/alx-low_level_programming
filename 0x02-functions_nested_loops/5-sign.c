@@ -1,3 +1,4 @@
+#include "main.h"
 # include <stdio.h>
 /**
  * main - Entry point
@@ -8,7 +9,7 @@ int print_sign(int n)
 {
 if (n>0)
 {
-printf("+");
+_putchar("43");
 return (1);
 }
 else if (n==0)
