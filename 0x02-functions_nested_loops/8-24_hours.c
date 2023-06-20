@@ -11,12 +11,12 @@ for(y=0;y<6;y++)
 {
 for(z=0;z<10;z++)
 {
-_putchar(w);
-_putchar(x);
-_putchar(':');
-_putchar(y);
-_putchar(z);
-_putchar('\n');
+printf("%d", w);
+printf("%d", x);
+printf(":");
+printf("%d", y);
+printf("%d", z);
+printf("\n");
 }
 }
 }
