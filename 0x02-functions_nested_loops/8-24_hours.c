@@ -2,18 +2,24 @@
 
 void jack_bauer(void)
 {
-int h=00, m=00;
-while(h<24)
+int w, x, y, z;
+for(w=0;w<3;w++)
 {
-if(m==60)
+for(x=0;x<4;x++)
 {
-h++;
-m=0;
-}
-_putchar(h);
+for(y=0;y<6;y++)
+{
+for(z=0;z<10;z++)
+{
+_putchar(w);
+_putchar(x);
 _putchar(':');
-_putchar(m);
+_putchar(y);
+_putchar(z);
 _putchar('\n');
+}
+}
+}
 }
 return (0);
 }
