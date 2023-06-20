@@ -1,15 +1,15 @@
 # include <stdio.h>
-
+# include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-int _islower(int c);
-int main(void)
+int _islowers(int c);
+int _islower(void)
 {
 int c='a';
-int k=_islower(c);
+int k=_islowers(c);
 if (k==1)
 {
 return (1);
@@ -20,7 +20,7 @@ return (0);
 }
 
 
-int _islower(int c)
+int _islowers(int c)
 {
 if (islower(c))
 {
