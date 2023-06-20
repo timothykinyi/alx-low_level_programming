@@ -1,16 +1,39 @@
-# include <stdio.h>
 # include "main.h"
 
 void times_table(void)
 {
-int rows = 10;
-int cols = 10;
-for (int i = 0; i < rows; i++)
+int s = 0, e = 9, count = 0;
+while (count <= 9)
 {
-for (int j = 0; j < cols; j++)
+while (s <= e)
 {
-printf("%2d, ", i * j);
+int product = count * s;
+if (s != 0)
+{
+_putchar(',');
+if (product < 10)
+{
+_putchar(' ');
+_putchar(' ');
 }
-printf("\n");
+else
+{
+ _putchar(' ');
 }
+if (product < 10)
+{
+_putchar(product + '0');
+}
+else
+{
+_putchar(product / 10 + '0');
+_putchar(product % 10 + '0');
+}
+if (s == e)
+{
+_putchar('\n');
+s++;
+}
+s= 0;
+count++;
 }
