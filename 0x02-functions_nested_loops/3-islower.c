@@ -1,5 +1,6 @@
 # include <stdio.h>
 # include "main.h"
+# include <ctype.h>
 /**
  * main - Entry point
  *
@@ -7,8 +8,7 @@
  */
 int _islower(int c)
 {
-int ch = c;
-if ( islower(ch))
+if (islower(c))
 {
 return (1);
 }else
