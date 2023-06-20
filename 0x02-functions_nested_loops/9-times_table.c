@@ -1,5 +1,5 @@
 # include "main.h"
-
+# include <stdio.h>
 void times_table(void)
 {
 int x, y;
@@ -9,7 +9,7 @@ for (x=0;x < 10;x++)
 for(y=0;y < 10;y++)
 {
 z = (x*y);
-_putchar(z);
+printf("%d", z);
 if (y != 9)
 {
 _putchar(',');
