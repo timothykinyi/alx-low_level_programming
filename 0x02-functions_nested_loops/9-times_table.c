@@ -2,8 +2,8 @@
 
 void times_table(void)
 {
-int x, y, z=0;
-for (x=0;x < 10;x++;)
+int x, y, z;
+for (x=0;x < 10;x++)
 {
 for(y=0;y < 10;y++)
 {
