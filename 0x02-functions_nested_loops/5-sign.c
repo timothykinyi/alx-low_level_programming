@@ -20,4 +20,6 @@ else if (n<0)
 {
 printf("-");
 return (-1);
-}}
+}
+return (0);
+}
