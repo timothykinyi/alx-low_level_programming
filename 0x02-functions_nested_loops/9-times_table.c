@@ -1,6 +1,6 @@
 # include "main.h"
 # include <stdio.h>
-/**
+11;rgb:0000/0000/0000/**
  * times_table - Entry point
  *
  * Return: Always 0 (Success)
@@ -17,7 +17,7 @@ z = (x * y);
 printf("%d", z);
 if (y != 9)
 {
-if (z !> 9)
+if (z <= 9)
 {
 printf(",");
 printf("  ");
