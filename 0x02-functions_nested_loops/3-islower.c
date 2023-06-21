@@ -2,7 +2,7 @@
 # include "main.h"
 # include <ctype.h>
 /**
- * main - Entry point
+ * _islower - Entry point
  *
  * Return: Always 0 (Success)
  */
