@@ -6,10 +6,10 @@ int x, l=0, y;
 int k = 0, z;
 for (x=0;x < 10;x++)
 {
+k = 0;
 for(y=0;y < 10;y++)
 {
 z = (x*y);
-k = 0;
 printf("%d", z);
 if (y != 9)
 {
