@@ -17,6 +17,20 @@ if ((l == 1) || (l == 0))
 printf(",");
 printf("  ");
 }
+else if (l == 2)
+{
+if(k < 5)
+{
+printf(",");
+printf("  ");
+}
+else
+{
+printf(",");
+printf(" ");
+}
+k++;
+}
 }
 else
 {
