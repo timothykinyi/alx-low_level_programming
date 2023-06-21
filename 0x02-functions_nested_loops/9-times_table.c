@@ -22,7 +22,7 @@ if (z < 10)
 printf(",");
 printf("  ");
 }
-else
+else if (z >= 10)
 {
 printf(",");
 printf(" ");
