@@ -31,7 +31,6 @@ else if (z >= 10)
 printf(", %d", z);
 }
 }
-}
 else
 {
 if (z <= 9)
