@@ -13,7 +13,7 @@ if (h < 98)
 for (h = n; h < 99 ; h++)
 {
 printf("%d", h);
-if(h != 98)
+if (h != 98)
 {
 printf(", ");
 }
