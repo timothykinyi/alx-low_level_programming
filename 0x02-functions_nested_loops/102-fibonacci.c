@@ -1,23 +1,21 @@
-#include <stdio.h>
-
-int main()
+# include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-int n = 50;
-unsigned long int fib[n];
-fib[0] = 1; 
-fib[1] = 2;
-for (int i = 2; i < n; i++)
+int x[50], z = 1, n = 2;
+x[0] = 1;
+x[1] = 2;
+printf("%d, ", x[0]);
+printf("%d, ", x[1]);
+while(z < 51)
 {
-fib[i] = fib[i - 1] + fib[i - 2];
+x[n] = (x[n-2] + x[n - 1]);
+printf("%d, ", x[n]);
+n++;
 }
-for (int i = 0; i < n; i++)
-{
-printf("%llu", fib[i]);
-if (i != n - 1)
-{
-printf(", ");
-}
-}
-printf("\n");
-return 0;
+return (0);
 }
