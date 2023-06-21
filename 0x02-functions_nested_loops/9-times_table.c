@@ -2,7 +2,7 @@
 # include <stdio.h>
 void times_table(void)
 {
-int x, y;
+int x, l=0, y;
 int z;
 for (x=0;x < 10;x++)
 {
@@ -12,13 +12,17 @@ z = (x*y);
 printf("%d", z);
 if (y != 9)
 {
+if ((l == 1) || (l == 0))
+{
 printf(",");
-printf(" ");
+printf("  ");
+}
 }
 else
 {
 printf("\n");
 }
+l++;
 }
 }
 }
