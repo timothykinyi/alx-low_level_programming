@@ -17,7 +17,7 @@ z = (x * y);
 printf("%d", z);
 if (y != 9)
 {
-if (z < 10)
+if (z !> 9)
 {
 printf(",");
 printf("  ");
