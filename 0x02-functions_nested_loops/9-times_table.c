@@ -31,6 +31,48 @@ printf(" ");
 }
 k++;
 }
+else if (l == 3)
+{
+if(k < 3)
+{
+printf(",");
+printf("  ");
+}
+else
+{
+printf(",");
+printf(" ");
+}
+k++;
+}
+else if (l == 4)
+{
+if(k < 2)
+{
+printf(",");
+printf("  ");
+}
+else
+{
+printf(",");
+printf(" ");
+}
+k++;
+}
+else if (l >= 5)
+{
+if(k < 1)
+{
+printf(",");
+printf("  ");
+}
+else
+{
+printf(",");
+printf(" ");
+}
+k++;
+}
 }
 else
 {
