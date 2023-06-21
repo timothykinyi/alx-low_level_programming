@@ -11,7 +11,6 @@ int x, y;
 int z;
 for (x= 0; x < 10; x++)
 {
-k = 0;
 for (y = 0; y < 10; y++)
 {
 z = (x * y);
@@ -27,6 +26,7 @@ else
 {
 printf(",");
 printf(" ");
+}
 }
 else
 {
