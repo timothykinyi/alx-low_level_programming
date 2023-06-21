@@ -19,7 +19,7 @@ printf("  ");
 }
 else if (l == 2)
 {
-if(k < 5)
+if(k < 4)
 {
 printf(",");
 printf("  ");
