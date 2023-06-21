@@ -9,7 +9,7 @@ if(((k % 3) == 0) || ((k % 5) == 0))
 {
 total += k;
 }
-printf("%d\n", total);
 }
+printf("%d\n", total);
 return (0);
 }
