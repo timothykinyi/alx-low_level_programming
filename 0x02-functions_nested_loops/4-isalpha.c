@@ -2,8 +2,8 @@
 # include <ctype.h>
 # include "main.h"
 /**
- * main - Entry point
- *
+ *  _isalpha - Entry point
+ * @c : character to be cheaked
  * Return: Always 0 (Success)
  */
 int _isalpha(int c)
