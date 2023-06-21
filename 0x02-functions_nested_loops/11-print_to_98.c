@@ -3,7 +3,7 @@
 
 void print_to_98(int n)
 {
-int h;
+int h = n;
 if (h < 98)
 {
 for (h = n;h < 99 ;h++)
