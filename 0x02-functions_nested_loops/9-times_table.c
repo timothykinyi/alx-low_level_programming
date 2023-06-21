@@ -3,7 +3,7 @@
 void times_table(void)
 {
 int x, l=0, y;
-int k = o, z;
+int k = 0, z;
 for (x=0;x < 10;x++)
 {
 for(y=0;y < 10;y++)
