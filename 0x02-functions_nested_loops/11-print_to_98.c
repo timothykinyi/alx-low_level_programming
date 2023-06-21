@@ -12,7 +12,8 @@ printf("%d", h);
 if(h != 98)
 {
 printf(", ");
-}else
+}
+else
 {
 printf("\n");
 }
@@ -23,6 +24,14 @@ else
 for (h = n;h > 97 ;h--)
 {
 printf("%d", h);
+if(h != 98)
+{
+printf(", ");
+}
+else
+{
+printf("\n");
+}
 }
 }
 }
