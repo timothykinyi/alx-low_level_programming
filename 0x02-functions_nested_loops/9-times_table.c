@@ -1,15 +1,20 @@
 # include "main.h"
 # include <stdio.h>
+/**
+ * times_table - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 void times_table(void)
 {
-int x, l=0, y;
+int x, l = 0, y;
 int k = 0, z;
-for (x=0;x < 10;x++)
+for (x= 0; x < 10; x++)
 {
 k = 0;
-for(y=0;y < 10;y++)
+for (y = 0; y < 10; y++)
 {
-z = (x*y);
+z = (x * y);
 printf("%d", z);
 if (y != 9)
 {
