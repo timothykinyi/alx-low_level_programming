@@ -3,7 +3,7 @@
 int main()
 {
 int n = 50;
-unsigned long long fib[n];
+unsigned long int fib[n];
 fib[0] = 1; 
 fib[1] = 2;
 for (int i = 2; i < n; i++)
