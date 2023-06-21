@@ -15,7 +15,10 @@ if (y != 9)
 printf(",");
 printf(" ");
 }
+else
+{
+printf("\n");
 }
-_putchar('\n');
+}
 }
 }
