@@ -1,6 +1,6 @@
 # include <stdio.h>
 /**
- * times_table - Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
