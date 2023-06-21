@@ -1,93 +1,47 @@
 # include "main.h"
 # include <stdio.h>
+/**
+ * print_times_table - Entry point
+ * @n : number to check
+ * Return: Always 0 (Success)
+ */
 void print_times_table(int n)
 {
-int x, l=0, y;
-int k = 0, z;
-for (x=n;x <= n;x++)
+int x, y;
+int z;
+for (x = 0; x < n; x++)
 {
-k = 0;
-for(y=n;y <= n;y++)
+for (y = 0; y < n; y++)
 {
-z = (x*y);
+z = (x * y);
+if (y == 0)
+{
 printf("%d", z);
+}
+else
+{
 if (y != 9)
 {
-if ((l == 1) || (l == 0))
+if (z <= 9)
 {
-printf(",");
-printf("  ");
+printf(",  %d", z);
 }
-else if (l == 2)
+else if (z >= 10)
 {
-if(k < 4)
-{
-printf(",");
-printf("  ");
-}
-else
-{
-printf(",");
-printf(" ");
-}
-k++;
-}
-else if (l == 3)
-{
-if(k < 3)
-{
-printf(",");
-printf("  ");
-}
-else
-{
-printf(",");
-printf(" ");
-}
-k++;
-}
-else if (l == 4)
-{
-if(k < 2)
-{
-printf(",");
-printf("  ");
-}
-else
-{
-printf(",");
-printf(" ");
-}
-k++;
-}
-else if (l >= 5)
-{
-if(k < 1)
-{
-printf(",");
-printf("  ");
-}
-else
-{
-printf(",");
-printf(" ");
-}
-k++;
+printf(", %d", z);
 }
 }
 else
 {
-printf(",");
-printf(" ");
-}
-k++;
-}
-}
-else
+if (z <= 9)
 {
-printf("\n");
+printf(",  %d\n", z);
+}
+else if (z >= 10)
+{
+printf(", %d\n", z);
 }
 }
-l++;
+}
 }
 }
