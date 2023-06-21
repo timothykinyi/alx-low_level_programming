@@ -9,6 +9,7 @@ for (x=0;x < 10;x++)
 for(y=0;y < 10;y++)
 {
 z = (x*y);
+k = o;
 printf("%d", z);
 if (y != 9)
 {
@@ -79,6 +80,6 @@ else
 printf("\n");
 }
 }
- l++;
+l++;
 }
 }
