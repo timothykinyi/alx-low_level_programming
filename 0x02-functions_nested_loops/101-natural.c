@@ -1,6 +1,6 @@
 # include "main.h"
 # include <stdio.h>
-void print_to_98(int n)
+void print_times_table(int n)
 {
 int x, l=0, y;
 int k = 0, z;
