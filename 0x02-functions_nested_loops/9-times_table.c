@@ -1,6 +1,6 @@
 # include "main.h"
 # include <stdio.h>
-/**
+11;rgb:0000/0000/0000/**
  * times_table - Entry point
  *
  * Return: Always 0 (Success)
@@ -14,7 +14,7 @@ for (x= 0; x < 10; x++)
 for (y = 0; y < 10; y++)
 {
 z = (x * y);
-if (x == 0)
+if (y == 0)
 {
 printf("%d", z);
 }
