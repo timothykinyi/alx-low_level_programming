@@ -6,16 +6,26 @@
  */
 int main(void)
 {
-int x[50], z = 1, n = 2;
-x[0] = 1;
-x[1] = 2;
-printf("%d, ", x[0]);
-printf("%d, ", x[1]);
-while(z < 51)
+int i = 0;
+long j = 1, k = 2;
+while (i < 50)
 {
-x[n] = (x[n-2] + x[n - 1]);
-printf("%d, ", x[n]);
-n++;
+if (i == 0)
+{
+printf("%ld", j);
 }
+else if (i == 1)
+{
+printf(", %ld", k);
+}
+else
+{
+k += j;
+j = k - j;
+printf(", %ld", k);
+}
+++i;
+}
+printf("\n");
 return (0);
 }
