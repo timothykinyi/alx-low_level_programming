@@ -1,8 +1,8 @@
 #include "main.h"
 # include <stdio.h>
 /**
- * main - Entry point
- *
+ * print_sign - Entry point
+ * @n : number to be checked
  * Return: Always 0 (Success)
  */
 int print_sign(int n)
