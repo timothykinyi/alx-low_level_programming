@@ -1,18 +1,18 @@
-# include "main.h"
+#include "main.h"
+
 /**
- * print_most_numbers - Entry point
+ * print_most_numbers - print num except 2 and 4
  *
- * Return : Always 0 (success)
+ * return: void
  */
+
 void print_most_numbers(void)
 {
-int x;
-for (x = 0; x <= 9; x++)
+char c;
+for (c = '0'; c <= '9'; c++)
 {
-if (x != 2 || x != 4)
-{
-_putchar(x + '0');
-}
+if (!(c == '2' || c == '4'))
+_putchar(c);
 }
 _putchar('\n');
 }
