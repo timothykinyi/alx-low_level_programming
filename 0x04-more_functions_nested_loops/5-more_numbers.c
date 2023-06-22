@@ -6,14 +6,14 @@
  */
 void more_numbers(void)
 {
-int x = 0;
-while(x < 10)
+int x, w = 0;
+while(w < 10)
 {
 int x;
 for (x = 0; x <= 9; x++)
 {
 _putchar(x + '0');
 }
-x++;
+w++;
 }
 }
