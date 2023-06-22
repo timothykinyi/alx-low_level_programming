@@ -2,14 +2,14 @@
 /**
  * print_square - Entry point
  * @size : number to be cheaked
- * Return Always 0 (success)
+ * Return : Always 0 (success)
  */
 void print_square(int size)
 {
 int x = 1, y = 1;
-while (x <= n)
+while (x <= size)
 {
-while (y <= n)
+while (y <= size)
 {
 _putchar('#');
 y++;
