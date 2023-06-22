@@ -15,6 +15,10 @@ if (c == uppercase)
 isupper = 1;
 break;
 }
+else
+{
+isupper = 0;
+}
 }
 return (isupper);
 }
