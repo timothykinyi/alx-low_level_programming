@@ -3,7 +3,7 @@
  * mul - Entry point
  * @a : first number to be cheacked
  * @b : secondnumber to be cheaked
- * Returns the product of a and b
+ * Return: the product of a and b
  */
 int mul(int a, int b)
 {
