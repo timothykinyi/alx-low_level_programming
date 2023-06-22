@@ -1,6 +1,6 @@
 # include "main.h"
 /**
- * _isdigit - Entry point
+ * isdigit - Entry point
  * @c : number to be cheacked
  * Return Always 0 (success)
  */
