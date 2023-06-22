@@ -1,19 +1,20 @@
-# include "main.h"
+#include "main.h"
+
 /**
- * more_numbers - Entry point
- *
- * Return : Always 0 (success)
+ * more_numbers - print more numbers
  */
+
 void more_numbers(void)
 {
-int x, w = 0;
-while(w < 10)
+int i, j;
+for (i = 1; i <= 10; i++)
 {
-for (x = 0; x <= 9; x++)
+for (j = 0; j <= 14; j++)
 {
-_putchar(x + '0');
+if (j >= 10)
+_putchar('1');
+_putchar (j % 10 + '0');
 }
 _putchar('\n');
-w++;
 }
 }
