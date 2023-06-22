@@ -2,7 +2,7 @@
 /**
  * _isdigit - Entry point
  * @c : number to be cheacked
- * Return Always 0 (success)
+ * Return : Always 0 (success)
  */
 int _isdigit(int c)
 {
