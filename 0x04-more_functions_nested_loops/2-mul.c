@@ -1,9 +1,9 @@
 # include "main.h"
 /**
  * mul - Entry point
- * @a : number one to be cheacked
- * @b : number two to be cheaked
- * Return Always 0 (success)
+ * @a : first number to be cheacked
+ * @b : secondnumber to be cheaked
+ * Returns the product of a and b
  */
 int mul(int a, int b)
 {
