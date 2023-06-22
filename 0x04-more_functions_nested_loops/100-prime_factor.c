@@ -7,7 +7,16 @@
  */
 int main(void)
 {
-int total = (612852475143 / 3);
-printf("%d\n", total);
-return 0;
+long x, maxf;
+long number = 612852475143;
+double square = sqrt(number);
+for (x = 1; x <= square; x++)
+{
+if (number % x == 0)
+{
+maxf = number / x;
+}
+}
+printf("%ld\n", maxf);
+return (0);
 }
