@@ -2,20 +2,25 @@
 /**
  * print_diagonal - Entry point
  * @n : number being used
- * Return Always 0 (success)
+ * Return : Always 0 (success)
  */
 void print_diagonal(int n)
 {
-int m, x = 1;
-while (x <= n)
+int m, x;
+if (n <= 0)
 {
-for (m = 1; m < x; m++)
+_putchar('\n');
+}
+else
 {
-_putchar(' ');
+for (x = 0; x < n; x++)
+{
+for (y = 0; y < x; y++)
+{
+_putchar(32);
 }
-_putchar('\\');
+_putchar(92);
 _putchar('\n');
-x++;
 }
-_putchar('\n');
+}
 }
