@@ -1,3 +1,4 @@
+# include <string.h>
 # include "main.h"
 /**
  * print_rev - it will print a string in reverse
