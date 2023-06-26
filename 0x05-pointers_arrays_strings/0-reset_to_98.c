@@ -1,8 +1,8 @@
 # include "main.h"
 /**
- * reset_to_98 - Entry point
- * @*n: pointer to a number
- * return : 0
+ * reset_to_98 - changes value of n to 98
+ * @n: pointer to a number
+ * return : nothing
  */
 void reset_to_98(int *n)
 {
