@@ -10,6 +10,6 @@ void _puts(char *str)
 while (*str != '\0')
 {
 puts(str);
-s++;
+str++;
 }
 }
