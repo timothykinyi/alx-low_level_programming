@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include <tring.h>
+# include <string.h>
 # include "main.h"
 /**
  * puts2 - prints numbers
