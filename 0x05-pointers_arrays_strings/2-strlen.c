@@ -3,7 +3,7 @@
 /**
  * _strlen - gives the length of a tring
  * @s: characters to be counted
- * Return : Always 0 (success)
+ * Return: length of @*s
  */
 int _strlen(char *s)
 {
