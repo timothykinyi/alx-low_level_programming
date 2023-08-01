@@ -11,7 +11,7 @@ char lower = 'a';
 while (lower <= 'z')
 {
 putchar(lower);
-lower ++;
+lower++;
 }
 putchar('\n');
 }
