@@ -7,10 +7,11 @@
  */
 void print_alphabet(void)
 {
-char lower;
-for (lower = 'a'; lower <= 'z'; lower++)
+char lower = 'a';
+while (lower <= 'z')
 {
 putchar(lower);
+lower ++;
 }
 putchar('\n');
 }
